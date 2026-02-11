@@ -1,78 +1,59 @@
-# atlas
-Insta360 Controller for photo
-# Atlas — Insta360 Controller
+Atlas — Insta360 X4 Controller
 
-Android application for controlling Insta360 camera. Designed for systematic 360° photo documentation with automatic project/date organization.
+Lightweight Android app for Insta360 X4 camera control. Fast, simple, organized.
+Why Atlas instead of Insta360 Studio?
+FeatureAtlasInsta360 StudioApp size45 MB2+ GBPhoto saveInstant to phoneManual download eachFile namingProject_Date_Time_PointRandom numbersOrganizationAuto-sorted foldersManual sortingGPS tagging✅ Built-in✅360° preview✅ Fast✅
+Features
 
-## Features
+📷 Remote 360° Capture — One tap shooting via WiFi
+📍 GPS in EXIF — Automatic location tagging
+📁 Smart Folders — Project → Date → Photos (auto-created)
+🏷️ Clear Naming — Project_20260204_1842_1.jpg — always know what's in the photo
+⚡ Instant Save — Photos go directly to your phone, no manual downloads
+🔄 Built-in Viewer — Preview 360° photos without leaving the app
+📱 Works with LTE — WiFi binding keeps camera connected even with mobile data on
 
-- 📷 **360° Photo Capture** — Remote shutter control via WiFi
-- 📍 **GPS Tagging** — Automatic coordinates in EXIF metadata
-- 📁 **Smart Organization** — Photos sorted by Project → Date → Point
-- 🔄 **Panorama Viewer** — Built-in 360° photo preview
-- 📱 **Works with Mobile Data** — WiFi binding allows camera connection even with cellular enabled
-- 🔢 **Point Numbering** — Sequential naming for hotspot identification
+Perfect For
 
-## Folder Structure
+🏗️ Construction — Document building progress by location points
+🏠 Real Estate — Virtual tour photography with consistent naming
+🗺️ Mapping — Systematic area coverage with GPS coordinates
+📸 Any 360° Work — When you need organized photo workflow
 
-```
+Folder Structure
 Download/Atlas/
-├── ProjectName/
+├── MyProject/
 │   ├── 20260204/
-│   │   ├── ProjectName_20260204_1842_1.jpg
-│   │   ├── ProjectName_20260204_1845_2.jpg
-│   │   └── ProjectName_20260204_1850_3.jpg
+│   │   ├── MyProject_20260204_1842_1.jpg
+│   │   ├── MyProject_20260204_1845_2.jpg
+│   │   └── MyProject_20260204_1850_3.jpg
 │   └── 20260205/
-│       └── ProjectName_20260205_0930_1.jpg
-└── AnotherProject/
-    └── 20260204/
-        └── ...
-```
+│       └── MyProject_20260205_0930_1.jpg
+Installation
 
-## Installation
+Download atlas-v2.0.0.apk from Releases
+Install on Android (enable "Unknown sources" if needed)
+Grant Location & Storage permissions
+Connect to Insta360 X4 WiFi and start shooting!
 
-1. Download `atlas-v2.0.0.apk` from [Releases](../../releases)
-2. Enable "Install from unknown sources" on your Android device
-3. Install the APK
-4. Grant permissions (Location, Storage)
+Quick Start
 
-## Usage
+NEW — Create project | OPEN — Continue existing
+Connect phone to Insta360 X4 WiFi
+Tap 📷 to connect camera
+Tap 📍 to enable GPS
+Press shutter → Enter point number → Save
+Photos instantly organized in folders!
 
-### First Launch
-1. Choose **NEW** to create a new project or **OPEN** to continue existing one
-2. Enter project name (latin letters, no spaces)
+Requirements
 
-### Taking Photos
-1. Connect your phone to Insta360 X4 WiFi network
-2. Tap camera icon to connect
-3. Tap GPS icon to enable location tagging
-4. Press shutter button to capture
-5. Enter point number and save
+Android 7.0+
+Insta360 X4 camera
 
-### Photo List
-- Swipe up on the `^` icon to see session photos
-- Tap photo to preview in 360° viewer
-- Tap trash icon to delete
+Author
 
-## Use Case
+🎬 YouTube: @a2-lab
+📱 Telegram: @a2blog
 
-Designed for construction site documentation:
-- Walk through key positions on the site
-- Capture 360° photos at each marked point
-- Photos automatically organized by project and date
-- Ready for upload to virtual tour platforms
-
-## Requirements
-
-- Android 7.0+
-- Insta360 camera
-- WiFi connection to camera
-
-## Author
-
-- YouTube: [@a2-lab](https://youtube.com/@a2-lab)
-- Telegram: [@a2blog](https://t.me/a2blog)
-
-## License
-
-MIT License — feel free to use and modify.
+License
+MIT — Free to use and modify.

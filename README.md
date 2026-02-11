@@ -1,4 +1,4 @@
-# Atlas — Insta360 X4 Controller
+# Atlas — Insta360 Controller
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android-green" alt="Platform">
@@ -13,7 +13,7 @@
   </a>
 </p>
 
-Lightweight Android app for Insta360 X4 camera control. Fast, simple, organized.
+Lightweight Android app for Insta360 camera control. Fast, simple, organized.
 
 ## Why Atlas instead of Insta360 Studio?
 
@@ -61,12 +61,12 @@ Download/Atlas/
 1. Download `atlas-v2.0.0.apk` from [Releases](../../releases/latest)
 2. Install on Android (enable "Unknown sources" if needed)
 3. Grant Location & Storage permissions
-4. Connect to Insta360 X4 WiFi and start shooting!
+4. Connect to Insta360 WiFi and start shooting!
 
 ## Quick Start
 
 1. **NEW** — Create project | **OPEN** — Continue existing
-2. Connect phone to Insta360 X4 WiFi
+2. Connect phone to Insta360 WiFi
 3. Tap 📷 to connect camera
 4. Tap 📍 to enable GPS
 5. Press shutter → Enter point number → Save
@@ -75,7 +75,7 @@ Download/Atlas/
 ## Requirements
 
 - Android 7.0+
-- Insta360 X4 camera
+- Insta360 camera
 
 ## Author
 
